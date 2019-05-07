@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+#nav {
+    height:38px;
+    background-color: #f2f2f2;
+    width:100%
+}
+#nav a:hover {
+    color:#ef3a75;
+}
+#nav .container {
+    margin:0 auto;
+}
+#left{
+    
+    height:38px
+}
+#left ul li {
+   padding:0 5px;
+}
+#right ul li {
+    padding:0 10px
+}
+#left ul li ,#right ul li  {
+    line-height:38px;
+    float: left;
+    font-size:12px;
+}
+#left ul li a,#left ul li ,#right ul li a  {
+    color:#a8a8a8
+}
+#right{
+    height:38px
+}
